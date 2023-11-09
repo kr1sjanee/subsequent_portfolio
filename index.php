@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <header>
-<header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -61,32 +61,44 @@
 
 <!-- Add more sections for your portfolio and contact information as needed -->
 <section id="services" class="py-5 text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="section-title mb-5">My Services</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title mb-5">My Services</h2>
+                </div>
+                    <div class="row pt-5 mt-30">
+            <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" style="text-decoration: none;">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-code fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title">Web Development</h3>
+                    <p class="card-text text-sm">Welcome to my Web Development showcase, where ideas come to life through code! I specialize in creating dynamic and functional websites, utilizing a stack of technologies including HTML, CSS, JavaScript, and various frameworks. Each project is an opportunity to deliver a unique online experience, blending creativity with technical expertise.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+        <a class="card" style="text-decoration: none;">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-chart-bar fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title">Data Analysis</h3>
+                    <p class="card-text text-sm">I possess a strong analytical mindset and expertise in extracting meaningful insights from complex data sets. I can conduct exploratory data analysis, implement statistical models, and have a deep understanding of data manipulation, data mining, and predictive analytics. I can help identify business opportunities, optimize processes, and improve performance.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" style="text-decoration: none;">
+            <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-address-book fa-3x head-icon"></i></div>
+            <div class="card-body text-center">
+                <h3 class="card-title">Front-End Development</h3>
+                <p class="card-text text-sm">Welcome to my Front-End Development showcase, where creativity meets functionality! I specialize in crafting visually stunning and responsive user interfaces. From HTML and CSS for structure and frameworks like Bootstrap, I ensure a seamless and engaging user experience. Explore my projects to see how I bring designs to life on the web.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+            </div>
+            </a>
+        </div>
+
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6"> <!-- Adjusted column width to 6 -->
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Web Development</h2>
-                        <p class="card-text">Crafting visually stunning websites with HTML, CSS, JavaScript, and Bootstrap.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6"> <!-- Adjusted column width to 6 -->
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h2 class="card-title">Data Analysis</h2>
-                        <p class="card-text">Extracting meaningful insights from data sets, conducting data analysis, and implementing statistical models.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more service cards as needed -->
-        </div>
-    </div>
 </section>
 
 
