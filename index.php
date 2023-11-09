@@ -9,6 +9,7 @@
 </head>
 <body>
 <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -17,7 +18,7 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#services" id="services-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
@@ -59,26 +60,37 @@
 </section>
 
 <!-- Add more sections for your portfolio and contact information as needed -->
-<section id="services" class="py-5">
+<section id="services" class="py-5 text-center">
     <div class="container">
         <div class="row">
-        <div class="card p-4">
-            <div class="card-body">
-                <h4 class="card-title text-center">My Services</h4>
-                <div id="service-1" class="mt-5">
-                    <h5 class="card-subtitle mb-2">Web Development</h5>
-                    <p class="card-text">With an understanding of HTML, CSS, JavaScript, and Bootstrap, I possess the skills to create visually stunning websites. However, please keep in mind that I'm still in the learning process of programming.</p>
-                </div>
-                <div id="service-2" class="mt-5">
-                    <h5 class="card-subtitle mb-2">Data Analysis</h5>
-                    <p class="card-text">I possess a strong analytical mindset and expertise in extracting meaningful insights from complex data sets. I can conduct exploratory data analysis, implement statistical models, and have a deep understanding of data manipulation, data mining, and predictive analytics. I can help identify business opportunities, optimize processes, and improve performance.</p>
-                </div>
+            <div class="col-md-12">
+                <h2 class="section-title mb-5">My Services</h2>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6"> <!-- Adjusted column width to 6 -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Web Development</h2>
+                        <p class="card-text">Crafting visually stunning websites with HTML, CSS, JavaScript, and Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"> <!-- Adjusted column width to 6 -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Data Analysis</h2>
+                        <p class="card-text">Extracting meaningful insights from data sets, conducting data analysis, and implementing statistical models.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more service cards as needed -->
         </div>
-
     </div>
 </section>
+
+
+
 
 <section id="skills" class="py-5">
     <div class="container">
@@ -157,6 +169,7 @@
             html.setAttribute('data-bs-theme', 'dark');
         }
     });
+    
 </script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
