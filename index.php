@@ -92,31 +92,48 @@
 
 
 
-<section id="skills" class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-            <h2 style="text-align: center;">My Skills</h2>
-                <div id="skill-1">
-                    <label>Web Development</label>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div id="skill-2">
-                    <label>Data Analysis</label>
-                    <ul>
-                        <li>SQL</li>
-                        <li>Database Management</li>
-                    </ul>
+<section id="skills" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title mb-5">My Skills</h2>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 skill-card">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Web Development</h2>
+                            <p class="card-text">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 skill-card">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">Data Analysis</h2>
+                            <p class="card-text">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more service cards as needed -->
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <section id="about" class="py-5">
     <div class="container">
@@ -155,6 +172,12 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="footer" class="py-3">
+    <div class="container text-center">
+        <p>&copy; 2023 Kris Jane. All rights reserved.</p>
     </div>
 </section>
 
