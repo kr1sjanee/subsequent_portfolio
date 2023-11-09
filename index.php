@@ -146,12 +146,12 @@
     </div>
 </section>
 
-<section id="contact" class="py-5">
+<section id="contact" class="py-5 text-center">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="contact-block">
-                <h2 style="text-align: center;">Contact Me</h2>
+                    <h2>Contact Me</h2>
                     <label id="myLabel">Contact me</label>
                     <form id="myForm">
                         <div class="contact-field">
@@ -166,7 +166,7 @@
                             <textarea placeholder="Enter your message..."></textarea>
                         </div>
                         <div class="contact-btn">
-                            <button class="solid-btn">Send Message</button>
+                            <button class="btn btn-primary">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -175,11 +175,20 @@
     </div>
 </section>
 
-<section id="footer" class="py-3">
-    <div class="container text-center">
-        <p>&copy; 2023 Kris Jane. All rights reserved.</p>
+
+<footer id="footer">
+    <div class="container d-md-flex py-4 footer-top">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; 2023 <strong><span>Kris Jane</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <a href="#">Portfolio</a>
+        </div>
+      </div>
     </div>
-</section>
+  </footer><!-- End Footer -->
 
 <script>
     const darkModeToggle = document.getElementById('dark-mode-toggle');
