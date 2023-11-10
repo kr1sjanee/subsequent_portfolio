@@ -144,6 +144,7 @@
                         <h2 class="card-title">Back-end Development</h2>
                         <p class="card-text">
                             <ul>
+                                <li>PHP</li>
                                 <li>MySQL</li>
                                 <li>Database Management</li>
                             </ul>
@@ -219,20 +220,9 @@
   </div>
 </section>
 
-
-<footer id="footer">
-    <div class="container d-md-flex py-4 footer-top">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; 2023 <strong><span>Kris Jane</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <a href="#">Portfolio</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+<div class="mt-5 p-4 bg-light text-black text-center">
+  <p>&copy; 2023 All rights reserved</p>
+</div>
 
 <script>
     const darkModeToggle = document.getElementById('dark-mode-toggle');
