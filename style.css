@@ -1,3 +1,9 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+
 body {
     background-color: #f8f9fa;
 }
@@ -12,15 +18,24 @@ body {
 }
 .card {
     border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(207, 2, 105, 0.774);
     transition: box-shadow 0.3s;
 }
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(207, 2, 105, 0.774);
 }
 .card-title {
     color: #007bff;
 }
 .card-text {
     color: #6c757d;
+}
+
+.custom-shadow-lg {
+    box-shadow: 0 4px 8px rgba(236, 9, 96, 0.979);
+    transition: box-shadow 0.3s ease; /* Add smooth transition effect */
+}
+
+.custom-shadow-lg:hover {
+box-shadow: 0 10px 20px rgba(236, 9, 96, 0.979); /* Adjust hover shadow values as needed */
 }
