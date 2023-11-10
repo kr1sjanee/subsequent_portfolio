@@ -66,26 +66,16 @@
                 <div class="col-md-12">
                     <h2 class="section-title mb-5">My Services</h2>
                 </div>
-                    <div class="row pt-5 mt-30">
-            <div class="col-lg-4 col-sm-6 mb-30 pb-5">
-            <a class="card" style="text-decoration: none;">
-                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-code fa-3x head-icon"></i></div>
-                <div class="card-body text-center">
-                    <h3 class="card-title">Web Development</h3>
-                    <p class="card-text text-sm">Welcome to my Web Development showcase, where ideas come to life through code! I specialize in creating dynamic and functional websites, utilizing a stack of technologies including HTML, CSS, JavaScript, and various frameworks. Each project is an opportunity to deliver a unique online experience, blending creativity with technical expertise.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+                <div class="row pt-5 mt-30">
+                    <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                        <a class="card" style="text-decoration: none;">
+                        <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-code fa-3x head-icon"></i></div>
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Web Development</h3>
+                            <p class="card-text text-sm">Welcome to my Web Development showcase, where ideas come to life through code! I specialize in creating dynamic and functional websites, utilizing a stack of technologies including HTML, CSS, JavaScript, and various frameworks. Each project is an opportunity to deliver a unique online experience, blending creativity with technical expertise.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-
-        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
-        <a class="card" style="text-decoration: none;">
-                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-chart-bar fa-3x head-icon"></i></div>
-                <div class="card-body text-center">
-                    <h3 class="card-title">Data Analysis</h3>
-                    <p class="card-text text-sm">I possess a strong analytical mindset and expertise in extracting meaningful insights from complex data sets. I can conduct exploratory data analysis, implement statistical models, and have a deep understanding of data manipulation, data mining, and predictive analytics. I can help identify business opportunities, optimize processes, and improve performance.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
-                </div>
-            </a>
-        </div>
 
         <div class="col-lg-4 col-sm-6 mb-30 pb-5">
             <a class="card" style="text-decoration: none;">
@@ -97,14 +87,21 @@
             </a>
         </div>
 
-            </div>
+        <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            <a class="card" style="text-decoration: none;">
+                <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-database fa-3x head-icon"></i></div>
+                <div class="card-body text-center">
+                    <h3 class="card-title">Back-End Development</h3>
+                    <p class="card-text text-sm">Welcome to my Back-End Development showcase, where server-side magic happens! I specialize in building robust and scalable back-end solutions. From server management to database design and API development, I ensure the seamless functioning of web applications. Explore my projects to see how I handle the behind-the-scenes complexities of web development.</p><span class="text-sm text-uppercase font-weight-bold"><i class="fe-icon-arrow-right"></i></span>
+                </div>
+            </a>
         </div>
 </section>
 
 
 
 
-<section id="skills" class="py-5 text-center">
+<section id="skills" class="py-5 mt-5 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
