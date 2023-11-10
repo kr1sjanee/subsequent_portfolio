@@ -24,9 +24,6 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -41,7 +38,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 class="display-4">Hello, I'm Kris Jane Cabilan</h1>
-                <p class="lead"> passionate student studying at ACLC College of Iriga.
+                <p class="lead">I'm a passionate student studying at ACLC College of Iriga.
                          I'm not a professional, but I can craft visually stunning websites that provide exceptional user experiences.
                           I am dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
             </div>
@@ -145,23 +142,6 @@
             </div>
         </div>
     </section>
-
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="kris.png" alt="Your Image" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h2>About Me</h2>
-                    <p>Hi! I'm Kris Jane A. Cabilan, a passionate student studying at ACLC College of Iriga.
-                         I'm not a professional, but I can craft visually stunning websites that provide exceptional user experiences.
-                          I am dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 <!-- Contact 1 - Bootstrap Brain Component -->
 <section id="contact" class="bg-light py-3 py-md-5">
