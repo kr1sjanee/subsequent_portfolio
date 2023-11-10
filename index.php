@@ -40,28 +40,28 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-            <h1 class="display-4 font-weight-bold text-primary">
-                Hello, I'm Kris Jane Cabilan
-                <h2>A <span class="auto-type"></span></h2>
-            </h1>
-                <p class="lead">I'm a passionate student studying at ACLC College of Iriga. I may not be a professional, but I have a knack for crafting visually stunning websites that provide exceptional user experiences. I'm dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
+                <h1 class="display-4 font-weight-bold text-primary">
+                    Hello, I'm Kris Jane Cabilan
+                    <h2>A <span class="auto-type"></span></h2>
+                </h1>
+                <p class="lead mt-3">I'm a passionate student studying at ACLC College of Iriga. I may not be a professional though, but I can craft visually stunning websites that provide exceptional user experiences. I'm dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
             </div>
             <div class="col-md-6">
-                <div class="text-center">
-                    <img src="krisjane.jpg" alt="Your Photo" class="img-fluid rounded-circle" width="350" height="300">
+                <div class="text-center" id="my-pic-circle">
+                    <img src="krisjane.jpg" alt="Your Photo" class="img-fluid rounded-circle" width="300" height="300">
                 </div>
                 <!-- Social Media Icons -->
-                <div class="contact-icons text-center mt-4">
+                <div class="contact-icon-holder">
                     <a href="https://web.facebook.com/krisjane.cabilan" target="_blank" class="text-primary"><i class="fab fa-facebook fa-2x mx-3"></i></a>
                     <a href="https://www.instagram.com/krisjane_cabilan/" target="_blank" class="text-primary"><i class="fab fa-instagram fa-2x mx-3"></i></a>
                     <a href="https://twitter.com/CabilanKris05" target="_blank" class="text-primary"><i class="fab fa-twitter fa-2x mx-3"></i></a>
                     <a href="https://www.linkedin.com/in/kris-jane-cabilan-003265278/" target="_blank" class="text-primary"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
+
 
 
 <!-- Add more sections for your portfolio and contact information as needed -->

@@ -6,7 +6,19 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true
     });
 
-    darkModeToggle.addEventListener('click', () => {
-        html.classList.toggle('dark-mode');
-    });
+    const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+  // Apply dark mode if enabled
+  if (isDarkMode) {
+    document.documentElement.classList.add('dark-mode');
+  }
+
+  // Toggle dark mode on button click
+  document.getElementById('dark-mode-toggle').addEventListener('click', () => {
+    const html = document.documentElement;
+    const isDarkModeEnabled = html.classList.toggle('dark-mode');
+
+    // Save dark mode preference to local storage
+    localStorage.setItem('darkMode', isDarkModeEnabled ? 'enabled' : 'disabled');
+  });
 })
