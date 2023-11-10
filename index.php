@@ -41,7 +41,9 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 class="display-4">Hello, I'm Kris Jane Cabilan</h1>
-                <p class="lead">Welcome to my portfolio, where I showcase a collection of innovative projects and cutting-edge solutions. With a strong foundation in coding and a passion for pushing boundaries. Explore my work and let's connect to collaborate on transforming ideas into reality. Together, we can make a lasting impact in the world of technology.</p>
+                <p class="lead"> passionate student studying at ACLC College of Iriga.
+                         I'm not a professional, but I can craft visually stunning websites that provide exceptional user experiences.
+                          I am dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
             </div>
             <div class="col-md-6">
                 <div class="text-center">
@@ -144,16 +146,22 @@
         </div>
     </section>
 
-<section id="about" class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>About Me</h2>
-                <p>Hi! I'm Kris Jane A. Cabilan, a passionate student studying at ACLC College of Iriga. I'm not a professional, but I can craft visually stunning websites that provide exceptional user experiences. I am dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="kris.png" alt="Your Image" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Hi! I'm Kris Jane A. Cabilan, a passionate student studying at ACLC College of Iriga.
+                         I'm not a professional, but I can craft visually stunning websites that provide exceptional user experiences.
+                          I am dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
 
 <!-- Contact 1 - Bootstrap Brain Component -->
 <section id="contact" class="bg-light py-3 py-md-5">
