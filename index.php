@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
 <header>
@@ -99,52 +100,64 @@
 
 
 
-
 <section id="skills" class="py-5 mt-5 text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section-title mb-5">My Skills</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 skill-card">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">Web Development</h2>
-                            <p class="card-text">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Bootstrap</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 skill-card">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">Data Analysis</h2>
-                            <p class="card-text">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Bootstrap</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more service cards as needed -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title mb-5">My Skills</h2>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-4 skill-card">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Web Development</h2>
+                        <p class="card-text">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 skill-card">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Front-end Development</h2>
+                        <p class="card-text">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 skill-card">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Back-end Development</h2>
+                        <p class="card-text">
+                            <ul>
+                                <li>MySQL</li>
+                                <li>Database Management</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Contact 1 - Bootstrap Brain Component -->
-<section id="contact" class="bg-light py-3 py-md-5">
+<section id="contact" class="py-3 py-md-5">
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
@@ -194,7 +207,7 @@
               </div>
               <div class="col-12">
                 <div class="d-grid">
-                  <button class="btn btn-primary btn-lg mt-3" type="submit">Submit</button>
+                <button class="btn btn-primary btn-lg float-end mt-3" type="submit">SUBMIT</button>
                 </div>
               </div>
             </div>
@@ -219,7 +232,7 @@
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
 <script>
     const darkModeToggle = document.getElementById('dark-mode-toggle');
