@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -39,7 +41,8 @@
         <div class="row">
             <div class="col-md-6">
             <h1 class="display-4 font-weight-bold text-primary">
-                Hello, I'm Kris Jane Cabilan</span>
+                Hello, I'm Kris Jane Cabilan
+                <h2>A <span class="auto-type"></span></h2>
             </h1>
                 <p class="lead">I'm a passionate student studying at ACLC College of Iriga. I may not be a professional, but I have a knack for crafting visually stunning websites that provide exceptional user experiences. I'm dedicated to gaining more knowledge. Let's collaborate and achieve remarkable outcomes together.</p>
             </div>
@@ -226,15 +229,6 @@
 </div>
 
 <script>
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const html = document.documentElement;
-
-    const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const html = document.documentElement;
-
-    darkModeToggle.addEventListener('click', () => {
-        html.classList.toggle('dark-mode');
-    });
 
 </script>
 
