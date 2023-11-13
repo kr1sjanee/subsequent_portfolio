@@ -37,8 +37,8 @@
 </header>
 
 <section id="home" class="py-5 mt-5">
-    <div class="container">
-        <div class="row">
+    <div class="container" class="py-5 mt-5">
+        <div class="row" class="py-5 mt-5">
             <div class="col-md-6">
                 <h1 class="display-4 font-weight-bold text-primary">
                     Hello, I'm Kris Jane Cabilan
@@ -62,9 +62,6 @@
     </div>
 </section>
 
-
-
-<!-- Add more sections for your portfolio and contact information as needed -->
 <section id="services" class="py-5 text-center">
         <div class="container">
             <div class="row">
@@ -161,8 +158,6 @@
     </div>
 </section>
 
-
-<!-- Contact 1 - Bootstrap Brain Component -->
 <section id="contact" class="py-3 py-md-5">
   <div class="container ">
     <div class="row justify-content-md-center">
@@ -223,10 +218,6 @@
     </div>
   </div>
 </section>
-
-<div class="mt-5 p-4 bg-light text-black text-center">
-  <p>&copy; 2023 All rights reserved</p>
-</div>
 
 <script>
 
